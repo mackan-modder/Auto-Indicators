@@ -25,7 +25,7 @@ The "indicators" don't account for your momentum into the click so in gamemodes 
 
 When using the hover feature to see how wide a timing is, the formula for the timing window is based on the speed of the player when they paused. Make sure to be the same speed as the timing you are inspecting.
 ## Future Features
-I would like to implement a way to link levels together so they share data, in case you have multiple copies of the same level. It would also be cool to have a database with already finished "indicators" for extreme demons but that is a huge feature that is not in the works for now. Feel free to post your .json files with indicator data online for others to use! Maybe in youtube completion descriptions? 
+I would like to implement a way to link levels together so they share data, in case you have multiple copies of the same level. I also need to add per-level settings and some ways to quickly clear or remove incorrect indicators. All of this will likely come in the next update. I just need to learn how to create a custom settings page.
 
 ## Special Thanks
 Huge thanks to Techstudent10! Check out their mod [Jump Markers](mod:techstudent10.jump_markers) which was a huge inspiration and helped me find the correct hooks to use here. If you want a more animated Jump Marker, consider trying it! I built upon their idea when making this mod.
