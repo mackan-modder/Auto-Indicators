@@ -32,6 +32,7 @@ bool JMPlayLayer::init(GJGameLevel* level, bool useReplay, bool dontCreateObject
     }
 
     m_fields->m_drawNode = CCDrawNode::create();
+    m_fields->m_drawNode->setID("mackan.passIndicators"_spr);
     if (m_objectLayer) m_objectLayer->addChild(m_fields->m_drawNode, 999);
 
     return true;
@@ -45,6 +46,7 @@ void JMPlayLayer::postUpdate(float dt) {
         /*
             This here is my roundabout way of getting the velocity 
             and keeping it when the player is dead and not moving. 
+            This is used for my predictive click position feature.
         */
 
         double currentX = m_player1->getPositionX();

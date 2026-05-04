@@ -10,8 +10,6 @@ $on_game(Loaded) {
             auto pl = static_cast<JMPlayLayer*>(PlayLayer::get());
             if (pl) {
                 pl->m_fields->m_showVisualizer = !pl->m_fields->m_showVisualizer;
-                pl->m_fields->m_isPaused = false;
-                pl->m_fields->m_hoverWorldPos = CCPoint(-9999, -9999);
                 
                 if (!pl->m_player1->m_isDead && !pl->m_fields->m_showVisualizer 
                     && pl->m_fields->m_drawNode) {

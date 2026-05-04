@@ -6,8 +6,8 @@
         "mac": "2.2081",
         "ios": "2.2081"
     },
-    "id": "mackan.visualisedtiming",
-    "name": "Auto-Indicators",
+    "id": "mackan.passIndicators",
+    "name": "Pass-Indicators",
     "version": "v1.0.0",
     "developer": "Mackan",
     "description": "A Timing Visualizer After Death.",
@@ -19,7 +19,7 @@
         }
     },"links": {
         "homepage": "https://x.com/yherherherherh",
-        "source": "https://github.com/mackan-modder/Auto-Indicators"
+        "source": "https://github.com/mackan-modder/Pass-Indicators"
     },"tags": [
 		"enhancement",
 		"gameplay",

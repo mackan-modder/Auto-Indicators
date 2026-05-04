@@ -1,4 +1,4 @@
-# Auto-Indicators
+# Pass-Indicators
 
 This mod adds a <cr>Death Effect</cr> that shows the exact positions where you should have clicked to <cg>Survive</cg>. The mod <cy>automatically</cy> tracks the positions of which clicks as you play the level. It is basically <cy>exact jump indicators for every level</cy> which is intended to help you both <cy>learn</cy> and <cg>understand</cg> the level Faster. Since it is a death effect is should be <cg>Allowed</cg> for any leaderboard or list!
 
